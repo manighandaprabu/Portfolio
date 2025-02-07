@@ -62,7 +62,7 @@ function ContactSection() {
                     </div>
                     <button
                         type="submit"
-                        className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300 w-full"
+                        className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-300 w-full"
                     >
                         Send Message
                     </button>
