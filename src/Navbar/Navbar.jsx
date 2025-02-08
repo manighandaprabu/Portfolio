@@ -8,6 +8,7 @@ function Nav() {
     const menuItems = [
         { name: "Home", link: "#home", id: "home" },
         { name: "About", link: "#about", id: "about" },
+        { name: "Education", link: "#Education", id: "Education" },
         { name: "Skills", link: "#skills", id: "skills" },
         { name: "Project", link: "#project", id: "project" },
         { name: "Contact", link: "#contact", id: "contact" },
