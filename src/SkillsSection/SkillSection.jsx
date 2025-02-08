@@ -12,23 +12,23 @@ function SkillsSection() {
         { name: "MongoDB", icon: <SiMongodb size={48} color="#47A248" /> },
         { name: "Express.js", icon: <SiExpress size={48} color="#000000" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss size={48} color="#38BDF8" /> },
-        { name: "Git&GitHub", icon: <FaGitAlt size={48} color="#F05032" /> },
+        { name: "Git & GitHub", icon: <FaGitAlt size={48} color="#F05032" /> },
     ];
 
     return (
-        <section className="h-screen relative overflow-hidden bg-gradient-to-b from-black to-gray-800">
-            <div className="relative z-10 flex flex-col justify-center items-center h-full m-7 text-center text-white px-6">
-                <h1 className="text-2xl md:text-4xl font-extrabold mb-6 tracking-wide leading-tight">
+        <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-800 px-4 py-10">
+            <div className="w-full max-w-6xl text-center text-white">
+                <h1 className="text-3xl sm:text-4xl font-extrabold mb-6 tracking-wide">
                     My Skills
                 </h1>
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
                     {skills.map((skill) => (
                         <div
                             key={skill.name}
-                            className="flex flex-col items-center justify-center bg-gray-900 bg-opacity-70 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform"
+                            className="flex flex-col items-center justify-center bg-gray-900 bg-opacity-80 p-5 rounded-xl shadow-lg transition-all transform hover:scale-105"
                         >
-                            <div className="text-4xl">{skill.icon}</div>
-                            <p className="mt-4 text-xl font-medium">{skill.name}</p>
+                            <div className="text-5xl">{skill.icon}</div>
+                            <p className="mt-3 text-lg sm:text-xl font-medium">{skill.name}</p>
                         </div>
                     ))}
                 </div>

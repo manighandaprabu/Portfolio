@@ -19,8 +19,7 @@ function HeroSection() {
                     Hi, I'm <span className="text-blue-500">Manighandaprabu</span>,
                 </h2>
                 <h2 className="text-xl md:text-3xl mb-4 font-semibold text-gray-300 animate-fade-in-delay">
-                    <span className="text-blue-500">Full Stack Developer</span> and{" "}
-                    <span className="text-blue-500">UI/UX Designer</span>
+                    <span className="text-blue-500">Full Stack Developer</span>{" "}
                 </h2>
                 <p className="text-md md:text-lg mb-8 max-w-2xl leading-relaxed animate-fade-in-longer text-gray-200">
                     Passionate about creating interactive web applications. I specialize
