@@ -44,9 +44,11 @@ function Nav() {
     return (
         <nav className="bg-black p-4 flex justify-between items-center shadow-md fixed top-0 left-0 w-full z-50">
             {/* Logo */}
-            <div className="flex items-center ml-3 space-x-2  w-[40%]">
-                <h1 className="text-white text-3xl font-semibold tracking-wide">
-                    <span className="text-blue-500 text-4xl">M</span>ani
+            <div className="flex items-center ml-3 space-x-2 w-[40%]">
+                <h1 className="text-white text-3xl font-semibold tracking-wide flex items-center">
+                    <span className="text-blue-500 text-4xl font-extrabold 
+                    ">M</span>
+                    ani
                 </h1>
             </div>
 
